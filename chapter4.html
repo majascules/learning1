@@ -3,12 +3,37 @@
 <head>
 	<meta charset="UTF-8">
 	<title>D3 Page Template</title>
-	<script type="text/javascript" src="./d3/d3.v3.js">
+	<script type="text/javascript" src="./d3/d3.v3.js"></script>
 </head>
 <body>
-	<script type="text/javascript" charset="utf-8">
-		d3.select("body").append("p").text("New Paragraph!");
+	<script type="text/javascript">
+		var dataset=[];
+		
+		d3.csv("./data/soy.csv", function(error,data) {
+			console.log(data)
+			if (error) {
+				console.log(error);
+				d3.select("body").append("p").text("Error Loading Data");				
+			}
+			
+			else {
+				console.log(data);
+				d3.select("body").append("p").text("Success Loading Data!");
+				
+			}
+			
+			dataset = data;
+			d3.select("body").selectAll("p")
+			.data(dataset)
+			.enter()
+			.append("p")
+			.text(function(d) { return d; });
+		});
+		
+
+		
 	</script>
-	<p>static p</p>
+
+	
 </body>
 </html>

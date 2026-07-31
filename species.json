@@ -1,0 +1,1915 @@
+{
+  "_id": { "$oid" : "521f9432258ef388e9faad3c" },
+  "appid": "US11/769941",
+  "internalpatentid": "82375707",
+  "patent": "US8489701",
+  "patentkind": "B2",
+  "publication": "US20080183853",
+  "publicationkind": "A1",
+  "docid": 110738570,
+  "pubdocid": 72907841,
+  "familyid": 39669193,
+  "inno": {
+    "cleannatural": "US08489701",
+    "title": "Private virtual LAN spanning a public network for connection of arbitrary hosts",
+    "abstract": "Architecture for exposing a virtual private network of peer devices into the public domain via an overlay network. Computing devices, peripheral devices, as well as mobile devices can be physically distributed, but appear to belong to the same virtual private (or home) network, and be accessible from anywhere. Benefits include access to user media/documents from anywhere, searching of all connected devices from one location, multicast and broadcast connectivity, management of the private network and the associated policies, and device discovery on the private network from across public networks. P2P networks and ad-hoc networks can be exposed as a virtual interface, as well as the utilization of client operating systems to create the virtual network, grouping, graphing, the integration with relay services and other NAT/firewall traversal schemes, and the creation of a P2P overlay manager on a physical NIC (network interface card) address rather than a virtual address.",
+    "citations": [
+      "CN1601996",
+      "US2003204742",
+      "US2003214955",
+      "US2004006708",
+      "US2004153858",
+      "US2005004916",
+      "US2005091529",
+      "US2005251577",
+      "US2005267993",
+      "US2006005013",
+      "US2006167985",
+      "US2006215684",
+      "US2007071012",
+      "US2008151778",
+      "US2010121943",
+      "US6016318",
+      "US6977900",
+      "US7206841",
+      "US7206934",
+      "US20030204742",
+      "US20030214955",
+      "US20040006708",
+      "US20040153858",
+      "US20050004916",
+      "US20050091529",
+      "US20050251577",
+      "US20050267993",
+      "US20060005013",
+      "US20060167985",
+      "US20060215684",
+      "US20070071012",
+      "US20080151778",
+      "US20100121943"
+    ],
+    "othercitations": [
+      "Ganguly et al \"IP over P2P: Enabling Self-configuring Virtual IP Networks for Grid Computing\", Apr. 2006, pp. 1-10.",
+      "Agrawal et al \"Towards P2P-routed IP Overlay Networks for Grid Virtual Machines\", Jul. 2005, pp. 293-294.",
+      "L. Zhou and R. Van Renesse. P6P: A Peer-to-Peer approach to internet infrastructure, p. 1-6, 2004.",
+      "International Search Report, mailed May 13, 2008, 10 pages.",
+      "Matthew Perry, et al., \"Peer-to-Peer Discovery of Semantic Associations\", 2nd International Workshop on Peer-to-Peer Knowledge Management, Jul. 17, 2005, 21 pages, San Diego, CA.",
+      "Dmitri Loguinov, et al., \"Graph-Theoretic Analysis of Structured Peer-to-Peer Systems: Routing Distances and Fault Resilience\", Applications, Technologies, Architectures, and Protocols for Computer Communication, Proceedings of the 2003 conference on Applications, Technologies, Architectures, and Protocols for Computer Communications 2003, pp. 395-406, Karlsruhe, Germany.",
+      "Uyless D. Black, \"IP Protocol Routing: RIP, OSPF, BGP, PNNI, and CISCO Routing Protocols\", 2000, 287 pages, Prentice Hall PTR, Upper Saddle River, NJ, USA, ISBN: 0130142484.",
+      "John T. Moy, \"OSPF: Anatomy of an Internet Routing Protocol\", Feb. 12, 1998, 339 pages, Addison-Wesley Professional, ISBN: 0201634724.",
+      "\"VPN-1 Power VSX\", Check Point Software Technologies Ltd, pp. 1-4.",
+      "Sayeed et al., \"Technology Overview: Making the Technology Case for MPLS and Technology Details\", retrieved at >, Jan. 12, 2007, Cisco Press, pp. 1-4.",
+      "Lua et al., \"A Survey and Comparison of Peer-to-Peer Overlay Network Schemes\", retrieved at >, IEE Communications Survey and Tutorial, Mar. 2004, pp. 1-22.",
+      "Ahmad et al., \"P2P-VPN: A Peer-to-Peer Based Virtual Private Network\", European Microsoft Innovation Center, pp. 1-9.",
+      "Ahmad, \"Design and Implementation of a P2P based Virtual Private Network\", Dec. 26, 2007, Department of Wireless Networks RWTH, Aachen University, pp. 1-119.",
+      "Karagiannis et al., \"Is P2P Dying or Just Hiding\", ACM Technews 6(712), Oct. 2004.",
+      "Perkins et al., \"Ad hoc On-Demand Distance Vector Routing\", Proceedings of the 2nd IEEE Workshop on Mobile Computing Systems and Applications, Feb. 1999.",
+      "Agrawal et al., \"Towards P2P Routed IP Overlay Networks for Grid Virtual Machines\", Proceedings of the 14th IEEE International Symposium on High Performance Distributed Computing (HPDC), Jul. 2005.",
+      "Aoyagi et al., \"ELA: A Fully Distributed VPN System over Peer-to-Peer Network\", Proceedings of the 2005 Symposium on Applications and the Internet (SAINT'05), Jan. 2005.",
+      "Microsoft Corporation, \"Installing Remote Desktop Web Connection in Windows XP\", available at http://www.microsoft.com/windowsxp/using/mobility/getstarted/remoteintro.mspx, May 2004.",
+      "Applied Networking Inc., \"hamachi-secure mediated peer to peer\", available at http://www.hamachi.cc, Jan. 2006.",
+      "Dykstra, \"ttcp/nttcp/nuttcp/iperf versions\", available at http://sd.wareonearth.com/~phil/net/ttcp/, Mar. 2004.",
+      "Titz, \"Why TCP Over TCP Is a Bad Idea\", available at http://sites.inka.de/sites/bigred/devel/tcp-tcp.html, Apr. 2001.",
+      "Microsoft Corporation, \"Introduction to Windows Peer-to-Peer Networking\", available at http://www.microsoft.com/technet/prodtechnol/winxppro/deploy/p2pintro.mspx, Published Jan. 2003, Updated Sep. 2006.",
+      "Microsoft Corporation, \"Peer Name Resolution Protocol\", available at http://www.microsoft.com/technet/network/p2p/pnrp.mspx, Sep. 2006.",
+      "Huitema, \"Teredo: Tunneling IPv6 over UDP through Network Address Translations (NATs)\", RFC 4380, Internet Engineering Task Force (IETF), Mar. 2004.",
+      "Microsoft Corporation, \"Virtual Private Networking: An Overview\", available at http://technet.microsoft.com/en-us/library/bb742566.aspx, Sep. 2001.",
+      "Office Action from the State Intellectual Property Office of the People's Republic of China regarding Application No. 200880003200.5 dated Jan. 14, 2013.",
+      "Office Action from the State Intellectual Property Office of the People's Republic of China regarding Application No. 200880003200.5 dated Jun. 27, 2012.",
+      "Office Action from the State Intellectual Property Office of the People's Republic of China regarding Application No. 200880003200.5 dated May 10, 2013."
+    ],
+    "organization": 20001244,
+    "originalOrganization": 20001244,
+    "locationText": "US",
+    "mainClassification": "G06F01516000",
+    "filedDate_mongo": { "$date": 1182988800000.000000 },
+    "filedDate": "2007-06-28",
+    "publishDate_mongo": { "$date": 1373932800000.000000 },
+    "publishDate": "2013-07-16",
+    "inventorNumbers": [
+      4215316,
+      19203529,
+      4196531,
+      6200858
+    ],
+    "allClassNumbers": [
+      61444,
+      61441
+    ],
+    "originalOrganizationName": [
+      "Microsoft Corporation"
+    ],
+    "organizationName": [
+      "Microsoft Corporation"
+    ],
+    "usClass": 709217000,
+    "cpc": [
+      "H04L0029083060",
+      "H04L0012464100",
+      "H04L0029083330",
+      "H04L0029085310",
+      "H04L0029120660",
+      "H04L0029122160",
+      "H04L0061151100",
+      "H04L0061200700",
+      "H04L0063027200",
+      "H04L0063104000"
+    ],
+    "inventors": [
+      {
+        "fullname": "Manion, Todd",
+        "last": "Manion",
+        "first": "Todd"
+      },
+      {
+        "fullname": "Ahmad, Arsalan",
+        "last": "Ahmad",
+        "first": "Arsalan"
+      },
+      {
+        "fullname": "Gefflaut, Alain",
+        "last": "Gefflaut",
+        "first": "Alain"
+      },
+      {
+        "fullname": "Singhal, Sandeep",
+        "last": "Singhal",
+        "first": "Sandeep"
+      }
+    ],
+    "allClassificationsText": [
+      "G06F01516000",
+      "G06F01517300"
+    ],
+    "lang": "en",
+    "issueDate_mongo": { "$date": 1373932800000.000000 },
+    "issueDate": "2013-07-16",
+    "priorityDate_mongo": { "$date": 1170115200000.000000 },
+    "priorityDate": "2007-01-30",
+    "expirationDate_mongo": { "$date": 1801267200000.000000 },
+    "expirationDate": "2027-01-30",
+    "numClaims": 20,
+    "numFigures": 0,
+    "numDrawings": 0,
+    "numCitations": 19,
+    "numReferences": 0,
+    "claims": "  1. A computer-implemented networking system, comprising: a computing device having a processor for executing computer-executable components stored in memory, the computer-executable components including: a management component for creating and managing a peer-to-peer (P2P) graph that overlays a private local area network which includes the computing device and a mobile device, the management component publishing name records of the computing device and the mobile device in the P2P graph to enable discovery of the computing device and the mobile device for P2P communications between nodes of the P2P graph, the management component including a local name resolver for resolving name records in the P2P graph, the local name resolver maintaining a list of peer identifiers, IP addresses, and name records published by the nodes of the P2P graph; and  an interface component for exposing the P2P graph to a public node of a public network as a virtual network interface card configured by the management component to: receive packets from the public node of the public network, forward packets comprising name resolution requests to the management component for server-less name resolution of the name resolution requests by the local name resolver, and forward packets intended for a destination node of the P2P graph to the management component for routing the packets intended for the destination node of the P2P graph as P2P messages through the nodes of the P2P graph using the peer identifiers for enabling communication between the public node of the public network and the destination node of the P2P graph when an IP address of the mobile device changes.    2. The system of claim 1, wherein the management component assigns IPv4 and IPv6 addresses to the virtual network interface card.   3. The system of claim 1, wherein the management component is created on a physical network interface card address.   4. The system of claim 3, wherein the physical network interface card address is an IPv4 address or an IPv6 address.   5. The system of claim 1, wherein: the virtual network interface card (VNIC) is controlled by a VNIC driver, and the VNIC driver exposes a miniport driver interface and a file stream interface for passing Internet Protocol (IP) packets to the management component.    6. The system of claim 5, wherein the management component includes a user-level application for controlling and configuring the virtual network interface card (VNIC) and for communicating IP packets on behalf of the VNIC.   7. The system of claim 1, wherein the management component facilitates at least one of multicast traffic or broadcast traffic.   8. The system of claim 1, wherein the management component facilitates traversal of at least one of a firewall system or a network address translation system.   9. The system of claim 1, wherein the virtual network interface card (VNIC) comprises a VNIC driver that intercepts Ethernet packets and exposes a file stream interface for passing Internet Protocol (IP) packets to the management component for routing and transmission of the IP packets to the nodes of the P2P graph.   10. The system of claim 1, wherein the management component includes a routing protocol for enabling multi-hop message routing over the P2P graph.   11. The system of claim 1, wherein the local name resolver uses at least one of a peer name resolution protocol and a link local multicast name resolution protocol.   12. A computer-implemented method of networking devices, comprising: creating, by a user application on client computing device, a peer-to-peer (P2P) graph that overlays a private local area network which includes the client computing device and a mobile device, the client computing device comprising a physical network interface card and a virtual network interface card (VNIC); publishing, by the user application, name records of the client computing device and the mobile device in the P2P graph to enable discovery of the client computing device and the mobile device for P2P communications between nodes of the P2P graph, the user application comprising a local name resolver for resolving name records in the P2P graph; maintaining, by the local name resolver, a list of peer identifiers, IP addresses, and name records published by the nodes of the P2P graph; exposing, by the VNIC, the P2P graph to a public node of a public network; receiving, by the VNIC, Internet Protocol (IP) traffic from the public node of the public network; forwarding, by the VNIC, IP packets comprising name resolution requests to the management component for server-less name resolution of the name resolution requests by the local name resolver; forwarding, by the VNIC, IP packets intended for a destination node of the P2P graph to the user application; and routing, by the user application, the IP packets intended for the destination node of the P2P graph as P2P messages through the nodes of the P2P graph for enabling communication between the public node of the public network and the destination node of the P2P graph when an IP address of the mobile device changes.    13. The method of claim 12, further comprising: assigning, by the user application, a private IP address range to each of the nodes of the P2P graph.    14. The method of claim 12, further comprising: enabling, by the user application, multi-hop message routing over the P2P graph.    15. The method of claim 12, further comprising: flooding, by the user application, the name records to all nodes of the P2P graph.    16. The method of claim 12, further comprising: exposing, by the VNIC, IPv4 and IPv6 interfaces for accommodating corresponding applications.    17. The method of claim 12, wherein the local name resolver uses at least one of a peer name resolution protocol and a link local multicast name resolution protocol.   18. The method of claim 12, further comprising: providing, by the user application, point-to-point TCP connections for direct communications between participating nodes of the P2P graph.    19. The method of claim 12, further comprising: replicating, by the user application, a database among the nodes of the P2P graph.    20. A computer-readable storage device storing computer-executable instructions that, when executed, cause a computing device to performs steps comprising: creating, via a user application, a peer-to-peer (P2P) graph that overlays a private local area network which includes the computing device and a mobile device; publishing, by the user application, name records of the computing device and the mobile device in the P2P graph to enable discovery of the computing device and the mobile device for P2P communications between nodes of the P2P graph, the user application comprising a local name resolver for resolving name records in the P2P graph; maintaining, by the local name resolver, a list of peer identifiers, IP addresses, and name records published by the nodes of the P2P graph; configuring, via the user application, a virtual network interface card to: expose the P2P graph to a public node of a public network, receive packets from the public node of the public network, forward packets comprising name resolution requests to the management component for server-less name resolution of the name resolution requests by the local name resolver, and forward packets intended for a destination node of the P2P graph to the user application for routing the packets intended for the destination node of the P2P graph as P2P messages through the nodes of the P2P graph using the peer identifiers for enabling communication between the public node of the public network and the destination node of the P2P graph when an IP address of the mobile device changes.    ",
+    "litigation": 0,
+    "opposition": 0,
+    "ts": "2013-08-05 12:19:30",
+    "assignments": [
+      {
+        "naturalid": "US8489701",
+        "kind": "B2",
+        "reel": 19728,
+        "frame": 388,
+        "recorded_date": { "$date": 1187740800000.000000 },
+        "execution_date": { "$date": 1187568000000.000000 },
+        "conveyance": "ASSIGNMENT OF ASSIGNORS INTEREST (SEE DOCUMENT FOR DETAILS).",
+        "assignors": [
+          "MANION, TODD",
+          "AHMAD, ARSALAN",
+          "GEFFLAUT, ALAIN",
+          "SINGHAL, SANDEEP"
+        ],
+        "assignees": [
+          "MICROSOFT CORPORATION"
+        ]
+      }
+    ]
+  },
+  "internal": {
+    "Patent Id": "82375707",
+    "File Number": "319841.02",
+    "Serial Number": "11/769941",
+    "Application Filed Date": "6/28/2007",
+    "File By Date": "6/28/2007",
+    "Priority Date": "1/30/2007",
+    "Granted Date": "7/16/2013",
+    "National Filed Date": "1/1/1900",
+    "Patent Number": "8489701",
+    "Publication Number": "US-2008-0183853-A1",
+    "Application Title": "PRIVATE VIRTUAL LAN SPANNING A PUBLIC NETWORK FOR CONNECTION OF ARBITRARY HOSTS",
+    "Abstract": "Architecture for exposing a virtual private network of peer devices into the public domain via an overlay network.  Computing devices, peripheral devices, as well as mobile devices can be physically distributed, but appear to belong to the same virtual private (or home) network, and be accessible from anywhere.  Benefits include access to user media/documents from anywhere, searching of all connected devices from one location, multicast and broadcast connectivity, management of the private network and the associated policies, and device discovery on the private network from across public networks.  P2P networks and ad-hoc networks can be exposed as a virtual interface, as well as the utilization of client operating systems to create the virtual network, grouping, graphing, the integration with relay services and other NAT/firewall traversal schemes, and the creation of a P2P overlay manager on a physical NIC (network interface card) address rather than a virtual address.",
+    "Executive Summary": "Peer-to-peer (P2P) networks have gained widespread popularity as one of the major sources of Internet traffic.  Some operating systems provide an overlay network for private P2P networks.  Unfortunately, conventional P2P overlay networks are only available to applications that specifically program to the overlay network APIs meaning that the overlay cannot be used for general network communication in both the private and public domains.  The invention is a server-less P2P virtual private network based on the overlay network technology that enables the creation of a virtual IP network having the properties of a standard LAN without requiring a central server.  Thus, applications normally running only in a single physical network can be used in a completely distributed way over networks such as the Internet.  Claims are directed to creating and managing a P2P overlay network and exposing nodes of the network to public nodes.",
+    "Red Flag": "N",
+    "Red Flag Comment": "Unknown",
+    "Status": "Granted",
+    "Secondary Status": "N/A",
+    "Case Design Type": "Non Provisional",
+    "Matter Application Type": "Secondary - Orig",
+    "Filing Type Application Subtype": "RCE",
+    "Country": "United States of America",
+    "Division": "WinClient",
+    "Sub Division": "Devices &amp; Networking",
+    "Component": "Core Networking",
+    "Plan": "COSD-DNT",
+    "Sub Component": "Null - Collaboration Technologies",
+    "MS Attorney": "Patrick Evans",
+    "Actual Primary Law Firm": "Virtual Firm",
+    "Actual Secondary Law Firm": "N/A",
+    "OC Attorney": "Rob  Racunas",
+    "Portfolio Manager": "",
+    "Keyword": "N/A",
+    "Products": "N/A",
+    "Fiscal Year based on app date": "FY2007",
+    "Investment Level": "Medium",
+    "Investment Level link date": "1/1/1900 12:00:00 AM",
+    "Renewal Due Date": "1/16/2017 12:00:00 AM",
+    "Actual Primary Law Firm Reference": "Rob Racunas",
+    "Actual Secondary Law Firm Reference": "Unknown",
+    "Annuity Agent": "MDC",
+    "Portfolio Tree Values": "N/A",
+    "ROMPValues": "9.1.14 - Point-to-Point Protocols|9.3 - Peer-to-Peer Networks",
+    "Value Ranking Values": "N/A",
+    "Inventors": "Todd Manion|Alain Gefflaut|Sandeep Singhal|Arsalan Ahmad"
+  },
+  "pto": {
+    "app_number": "11/769,941",
+    "filing_371_mongo": { "$date": 1182988800000.000000 },
+    "filing_371": "2007-06-28",
+    "app_type": "Utility",
+    "examiner_name": "TANG, KAREN C",
+    "groupArt": "2447",
+    "confirm_number": "5624",
+    "atty_docket": "MS319841.02",
+    "class_sub": "709/250",
+    "first_inventor": "Todd Manion , Bellevue, WA (US)",
+    "customer_number": "-",
+    "status": "Docketed New Case - ",
+    "status_date_mongo": { "$date": 1313539200000.000000 },
+    "status_date": "2011-08-17",
+    "location": "ELECTRONIC",
+    "location_date_mongo": { "$date": -62169984000000.000000 },
+    "location_date": "0000-00-00",
+    "earliest_pub_no": "US 2008-0183853 A1",
+    "earliest_date_mongo": { "$date": 1217462400000.000000 },
+    "earliest_date": "2008-07-31",
+    "patent_number": "-",
+    "issue_date_mongo": { "$date": 0.000000 },
+    "issue_date": "1970-01-01",
+    "title": "PRIVATE VIRTUAL LAN SPANNING A PUBLIC NETWORK FOR CONNECTION OF ARBITRARY HOSTS",
+    "app_attorney_agent": [
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42257",
+        "name": "Alleman, Mark",
+        "phone": "503-459-4141"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "57998",
+        "name": "Baldauff, Michael Jr.",
+        "phone": "404-815-1900"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "37773",
+        "name": "Banowsky, James",
+        "phone": "425-705-3539"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "47409",
+        "name": "Barta, James Jr",
+        "phone": "314-302-1451"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "59170",
+        "name": "Behrens, Todd",
+        "phone": "216-264-4076"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "56141",
+        "name": "Bell, Daniel",
+        "phone": "503-740-2499"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "39906",
+        "name": "Bergstrom, Robert",
+        "phone": "206-621-1933"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "38080",
+        "name": "Billig, Patrick",
+        "phone": "612-573-2003"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "48958",
+        "name": "Boelitz, Carole",
+        "phone": "425-722-6035"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "64704",
+        "name": "Bolden, Cynthia",
+        "phone": "513-746-2826"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "58388",
+        "name": "Boswell, James",
+        "phone": "888-691-4332"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "41631",
+        "name": "Braidwood, George",
+        "phone": "312-291-0860"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "44555",
+        "name": "Brandt, Carl",
+        "phone": "425-707-4517"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "41986",
+        "name": "Brandt, Lynn",
+        "phone": "425-868-9341"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "45313",
+        "name": "Breen, William III",
+        "phone": "509-755-7253"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "57971",
+        "name": "Bucher, John",
+        "phone": "509-252-5015"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "60359",
+        "name": "Castro, Daniel",
+        "phone": "415-370-4674"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "58413",
+        "name": "Chin, Davin",
+        "phone": "425-633-2388"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "45816",
+        "name": "Colby, Michael",
+        "phone": "509-755-7254"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "57646",
+        "name": "Collins, L.",
+        "phone": "425--89-4-8721"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42431",
+        "name": "Condo, Joseph",
+        "phone": "215-558-5740"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "44629",
+        "name": "Cooper, William",
+        "phone": "216-654-0090"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42444",
+        "name": "Cowger, Graciela",
+        "phone": "503-224-2170"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "51587",
+        "name": "Creasman, Jason",
+        "phone": "503-459-4141"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "59136",
+        "name": "Culberson, Christopher",
+        "phone": "509-755-7266"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "39160",
+        "name": "Daisak, Daniel",
+        "phone": "609-466-3692"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "46437",
+        "name": "Dodd, Michael",
+        "phone": "801-550-4985"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "57651",
+        "name": "Enfield, Andrew",
+        "phone": "425-703-8227"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "35499",
+        "name": "Eppenauer, D",
+        "phone": "425-703-0645"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "43610",
+        "name": "Fiala, Thomas",
+        "phone": "202-244-3003"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42535",
+        "name": "Fischer, Craig",
+        "phone": "805-278-8855"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42541",
+        "name": "Fogarty, Michael III",
+        "phone": "214-722-8983"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "62828",
+        "name": "Gabryjelski, Henry",
+        "phone": "425-703-8116"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "44716",
+        "name": "Goff, Jared",
+        "phone": "360-907-0101"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "35164",
+        "name": "Gordon, Peter",
+        "phone": "617-737-5010"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "52970",
+        "name": "Grillo, David",
+        "phone": "866-511-5168"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "43653",
+        "name": "Hall, Michael",
+        "phone": "503-459-4141"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "36398",
+        "name": "Hao, James",
+        "phone": "408-938-9080"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "40635",
+        "name": "Harmon, William III",
+        "phone": "425-703-0737"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "55251",
+        "name": "Hartman, Jodi",
+        "phone": "404-815-1900"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "35185",
+        "name": "Hartnett, Clare",
+        "phone": "--"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "56372",
+        "name": "Haslam, Brian",
+        "phone": "425-722-5749"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "38492",
+        "name": "Holmen, Jeff",
+        "phone": "612-573-0178"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "45844",
+        "name": "Holt, Christopher",
+        "phone": "612-334-3222"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42668",
+        "name": "Holzer, Richard Jr",
+        "phone": "720-204-5666"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "44774",
+        "name": "Hope, Leonard",
+        "phone": "404-815-1900"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "40309",
+        "name": "Huntley, David",
+        "phone": "--"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "38499",
+        "name": "Irving, Richard",
+        "phone": "888-703-1110,EXT. 4"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "48835",
+        "name": "Jardine, John",
+        "phone": "425-467-5686"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "46002",
+        "name": "Jorgenson, Eric",
+        "phone": "216-225-4169"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "40040",
+        "name": "Kacvinsky, John",
+        "phone": "412-576-4573"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "35913",
+        "name": "Kaler, Stuart",
+        "phone": "--"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "34847",
+        "name": "Kelly, Joseph",
+        "phone": "612-334-3222"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "48250",
+        "name": "Key, Maclane",
+        "phone": "310--87-1-8503"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "45398",
+        "name": "Kim, Sung",
+        "phone": "703-647-6574"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "58722",
+        "name": "Knight, Sarah",
+        "phone": "352-375-8100"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "36188",
+        "name": "Koehler, Steven",
+        "phone": "612-334-3222"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42760",
+        "name": "Kosh, Christopher",
+        "phone": "650-857-3510"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "48936",
+        "name": "Krajec, Russell",
+        "phone": "970-690-4023"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "51945",
+        "name": "Liang, Chen",
+        "phone": "425-818-3658"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "41946",
+        "name": "Livesay, Margo",
+        "phone": "202-684-8685"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42821",
+        "name": "Lyon, Katrina",
+        "phone": "805-278-8855"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "37385",
+        "name": "Lyon, Richard Jr",
+        "phone": "805-278-8855"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "39758",
+        "name": "Magee, Theodore",
+        "phone": "612-334-3222"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "40711",
+        "name": "Mager, Gary",
+        "phone": "206-409-5518"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "35277",
+        "name": "Mayer, Stuart",
+        "phone": "908-518-7700"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "55444",
+        "name": "McGinnity, Daniel",
+        "phone": "509-755-7262"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "57058",
+        "name": "Medley, Michael",
+        "phone": "216-264-4074"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "44453",
+        "name": "Mitchell, Paul",
+        "phone": "509-252-5015"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "42905",
+        "name": "Morasch, David",
+        "phone": "509-755-7250"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "46221",
+        "name": "Murphy, Susan",
+        "phone": "610-469-8744"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "47815",
+        "name": "Neal, Stephen",
+        "phone": "415-572-0846"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "61817",
+        "name": "Niemann, Mark",
+        "phone": "509-755-7259"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "37987",
+        "name": "Ogilvie, John",
+        "phone": "801-706-2546"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "56623",
+        "name": "Paton, Miriam",
+        "phone": "416-630-0071"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "53479",
+        "name": "Powell, Tracy",
+        "phone": "425-538-4513"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "43027",
+        "name": "Racunas, Robert",
+        "phone": "724-941-4804"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "45466",
+        "name": "Rau, Nathan",
+        "phone": "504-782-3527"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "35333",
+        "name": "Ream, Michael",
+        "phone": "425-538-5530"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "52167",
+        "name": "Rieth, Damon",
+        "phone": "425-421-2377"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "38605",
+        "name": "Sadler, Lance",
+        "phone": "509-755-7262"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "47914",
+        "name": "Sadlowski, Jeffrey",
+        "phone": "216-925-5482"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "33553",
+        "name": "Shively, Martin",
+        "phone": "425-706-1441"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "45124",
+        "name": "Spellman, Steven",
+        "phone": "425-707-9382"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "38318",
+        "name": "Sponseller, Allan",
+        "phone": "509-755-7262"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "47965",
+        "name": "Stein, David",
+        "phone": "216-654-0090"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "48702",
+        "name": "Strom, James",
+        "phone": "425-939-0781"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "56784",
+        "name": "Swindell, Caroline",
+        "phone": "724-933-9338"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "52275",
+        "name": "Tapia, Pablo",
+        "phone": "--"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "64421",
+        "name": "Thomas, Steven Jr.",
+        "phone": "509-252-5015"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "38342",
+        "name": "Toler, Jeffrey",
+        "phone": "512-327-5515"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "52291",
+        "name": "Tom, Lisa",
+        "phone": "425-533-0298"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "59675",
+        "name": "Turk, Carl",
+        "phone": "352-505-9200"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "41357",
+        "name": "Tuttle, Christopher",
+        "phone": "503-459-4141"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "43963",
+        "name": "Ullman, Peter",
+        "phone": "609-384-1118"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "45177",
+        "name": "Vasiljevic, Vladan",
+        "phone": "616-797-1000"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "58228",
+        "name": "Wade, Bryan",
+        "phone": "202-558-5547"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "40861",
+        "name": "Waldman, Jonathan",
+        "phone": "215-280-5659"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "41370",
+        "name": "Watson, Mark",
+        "phone": "805-278-8855"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "45608",
+        "name": "Weaver, Jeffrey",
+        "phone": "202-244-3003"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "47214",
+        "name": "Webster, Bryan",
+        "phone": "425-882-8080"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "32332",
+        "name": "Weresh, John",
+        "phone": "425-705-7707"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "36721",
+        "name": "Williams, Karin",
+        "phone": "908-518-7700"
+      },
+      {
+        "firm_name": "MICROSOFT CORPORATION",
+        "address": "ONE MICROSOFT WAY;REDMOND WA 98052",
+        "customer_number": "-",
+        "reg": "38666",
+        "name": "Young, Mark",
+        "phone": "732-329-4126"
+      }
+    ],
+    "app_continuity": [
+      {
+        "sequence": "1",
+        "description": "This application Claims Priority from Provisional Application",
+        "parent_number": "60/898,519",
+        "parent_371date": "2007-01-30",
+        "parent_status": "Expired",
+        "patent_number": "-",
+        "clean_patent": "US-"
+      },
+      {
+        "sequence": "2",
+        "description": "PCT/US08/51046 filed on 01-15-2008 which is Published claims the benefit of 11/769,941",
+        "parent_number": "",
+        "parent_371date": "1970-01-01",
+        "parent_status": "",
+        "patent_number": "",
+        "clean_patent": "US"
+      }
+    ],
+    "app_image_file_wrapper": [
+      {
+        "mail_date_mongo": { "$date": 1343779200000.000000 },
+        "mail_date": "2012-08-01",
+        "doc_code": "IDS",
+        "doc_desc": "Information Disclosure Statement (IDS) Form (SB08)",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1343779200000.000000 },
+        "mail_date": "2012-08-01",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "11"
+      },
+      {
+        "mail_date_mongo": { "$date": 1343779200000.000000 },
+        "mail_date": "2012-08-01",
+        "doc_code": "N417",
+        "doc_desc": "EFS Acknowledgment Receipt",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "IDS",
+        "doc_desc": "Information Disclosure Statement (IDS) Form (SB08)",
+        "page_count": "0",
+        "filename": "5"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "7"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "11"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "12"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "18"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "8"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "44"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "17"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313107200000.000000 },
+        "mail_date": "2011-08-12",
+        "doc_code": "N417",
+        "doc_desc": "EFS Acknowledgment Receipt",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313020800000.000000 },
+        "mail_date": "2011-08-11",
+        "doc_code": "RCEX",
+        "doc_desc": "Request for Continued Examination (RCE)",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313020800000.000000 },
+        "mail_date": "2011-08-11",
+        "doc_code": "AMSB",
+        "doc_desc": "Amendment Submitted/Entered with Filing of CPA/RCE",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313020800000.000000 },
+        "mail_date": "2011-08-11",
+        "doc_code": "CLM",
+        "doc_desc": "Claims",
+        "page_count": "0",
+        "filename": "6"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313020800000.000000 },
+        "mail_date": "2011-08-11",
+        "doc_code": "REM",
+        "doc_desc": "Applicant Arguments/Remarks Made in an Amendment",
+        "page_count": "0",
+        "filename": "5"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313020800000.000000 },
+        "mail_date": "2011-08-11",
+        "doc_code": "WFEE",
+        "doc_desc": "Fee Worksheet (SB06)",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1313020800000.000000 },
+        "mail_date": "2011-08-11",
+        "doc_code": "N417",
+        "doc_desc": "EFS Acknowledgment Receipt",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1299801600000.000000 },
+        "mail_date": "2011-03-11",
+        "doc_code": "CTFR",
+        "doc_desc": "Final Rejection",
+        "page_count": "0",
+        "filename": "10"
+      },
+      {
+        "mail_date_mongo": { "$date": 1299801600000.000000 },
+        "mail_date": "2011-03-11",
+        "doc_code": "892",
+        "doc_desc": "List of references cited by examiner",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1299801600000.000000 },
+        "mail_date": "2011-03-11",
+        "doc_code": "FWCLM",
+        "doc_desc": "Index of Claims",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1299801600000.000000 },
+        "mail_date": "2011-03-11",
+        "doc_code": "SRFW",
+        "doc_desc": "Search information including classification, databases and other search related notes",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1299801600000.000000 },
+        "mail_date": "2011-03-11",
+        "doc_code": "1449",
+        "doc_desc": "List of References cited by applicant and considered by examiner",
+        "page_count": "0",
+        "filename": "6"
+      },
+      {
+        "mail_date_mongo": { "$date": 1299801600000.000000 },
+        "mail_date": "2011-03-11",
+        "doc_code": "SRNT",
+        "doc_desc": "Examiner's search strategy and results",
+        "page_count": "0",
+        "filename": "8"
+      },
+      {
+        "mail_date_mongo": { "$date": 1299801600000.000000 },
+        "mail_date": "2011-03-11",
+        "doc_code": "SRNT",
+        "doc_desc": "Examiner's search strategy and results",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1294272000000.000000 },
+        "mail_date": "2011-01-06",
+        "doc_code": "A...",
+        "doc_desc": "Amendment/Req. Reconsideration-After Non-Final Reject",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1294272000000.000000 },
+        "mail_date": "2011-01-06",
+        "doc_code": "CLM",
+        "doc_desc": "Claims",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1294272000000.000000 },
+        "mail_date": "2011-01-06",
+        "doc_code": "REM",
+        "doc_desc": "Applicant Arguments/Remarks Made in an Amendment",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1294272000000.000000 },
+        "mail_date": "2011-01-06",
+        "doc_code": "WFEE",
+        "doc_desc": "Fee Worksheet (SB06)",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1294272000000.000000 },
+        "mail_date": "2011-01-06",
+        "doc_code": "N417",
+        "doc_desc": "EFS Acknowledgment Receipt",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "CTNF",
+        "doc_desc": "Non-Final Rejection",
+        "page_count": "0",
+        "filename": "12"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "892",
+        "doc_desc": "List of references cited by examiner",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "FWCLM",
+        "doc_desc": "Index of Claims",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "SRFW",
+        "doc_desc": "Search information including classification, databases and other search related notes",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "BIB",
+        "doc_desc": "Bibliographic Data Sheet",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "SRNT",
+        "doc_desc": "Examiner's search strategy and results",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "SRNT",
+        "doc_desc": "Examiner's search strategy and results",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "1449",
+        "doc_desc": "List of References cited by applicant and considered by examiner",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "1449",
+        "doc_desc": "List of References cited by applicant and considered by examiner",
+        "page_count": "0",
+        "filename": "8"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "SRNT",
+        "doc_desc": "Examiner's search strategy and results",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1281052800000.000000 },
+        "mail_date": "2010-08-06",
+        "doc_code": "1449",
+        "doc_desc": "List of References cited by applicant and considered by examiner",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1273881600000.000000 },
+        "mail_date": "2010-05-15",
+        "doc_code": "IDS",
+        "doc_desc": "Information Disclosure Statement (IDS) Form (SB08)",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1273881600000.000000 },
+        "mail_date": "2010-05-15",
+        "doc_code": "TRAN.LET",
+        "doc_desc": "Transmittal Letter",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1273881600000.000000 },
+        "mail_date": "2010-05-15",
+        "doc_code": "N417",
+        "doc_desc": "EFS Acknowledgment Receipt",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1273881600000.000000 },
+        "mail_date": "2010-05-15",
+        "doc_code": "TRAN.LET",
+        "doc_desc": "Transmittal Letter",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1273881600000.000000 },
+        "mail_date": "2010-05-15",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "21"
+      },
+      {
+        "mail_date_mongo": { "$date": 1273881600000.000000 },
+        "mail_date": "2010-05-15",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "12"
+      },
+      {
+        "mail_date_mongo": { "$date": 1273881600000.000000 },
+        "mail_date": "2010-05-15",
+        "doc_code": "371P",
+        "doc_desc": "Documents submitted with 371 Applications",
+        "page_count": "0",
+        "filename": "10"
+      },
+      {
+        "mail_date_mongo": { "$date": 1217462400000.000000 },
+        "mail_date": "2008-07-31",
+        "doc_code": "NTC.PUB",
+        "doc_desc": "Notice of Publication",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1188432000000.000000 },
+        "mail_date": "2007-08-30",
+        "doc_code": "APP.FILE.REC",
+        "doc_desc": "Filing Receipt",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1187740800000.000000 },
+        "mail_date": "2007-08-22",
+        "doc_code": "OATH",
+        "doc_desc": "Oath or Declaration filed",
+        "page_count": "0",
+        "filename": "6"
+      },
+      {
+        "mail_date_mongo": { "$date": 1187740800000.000000 },
+        "mail_date": "2007-08-22",
+        "doc_code": "WFEE",
+        "doc_desc": "Fee Worksheet (SB06)",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1187740800000.000000 },
+        "mail_date": "2007-08-22",
+        "doc_code": "N417",
+        "doc_desc": "EFS Acknowledgment Receipt",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1184803200000.000000 },
+        "mail_date": "2007-07-19",
+        "doc_code": "APP.FILE.REC",
+        "doc_desc": "Filing Receipt",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1184803200000.000000 },
+        "mail_date": "2007-07-19",
+        "doc_code": "PEFN",
+        "doc_desc": "Pre-Exam Formalities Notice",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "SPEC",
+        "doc_desc": "Specification",
+        "page_count": "0",
+        "filename": "34"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "CLM",
+        "doc_desc": "Claims",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "ABST",
+        "doc_desc": "Abstract",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "DRW",
+        "doc_desc": "Drawings-only black and white line drawings",
+        "page_count": "0",
+        "filename": "19"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "IDS",
+        "doc_desc": "Information Disclosure Statement (IDS) Form (SB08)",
+        "page_count": "0",
+        "filename": "8"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "9"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "4"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "22"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "ADS",
+        "doc_desc": "Application Data Sheet",
+        "page_count": "0",
+        "filename": "5"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "NPL",
+        "doc_desc": "Non Patent Literature",
+        "page_count": "0",
+        "filename": "119"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "WFEE",
+        "doc_desc": "Fee Worksheet (SB06)",
+        "page_count": "0",
+        "filename": "2"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "N417",
+        "doc_desc": "EFS Acknowledgment Receipt",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "136A",
+        "doc_desc": "Authorization for Extension of Time all replies",
+        "page_count": "0",
+        "filename": "3"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "WFEE",
+        "doc_desc": "Fee Worksheet (SB06)",
+        "page_count": "0",
+        "filename": "1"
+      },
+      {
+        "mail_date_mongo": { "$date": 1182988800000.000000 },
+        "mail_date": "2007-06-28",
+        "doc_code": "WFEE",
+        "doc_desc": "Fee Worksheet (SB06)",
+        "page_count": "0",
+        "filename": "1"
+      }
+    ],
+    "app_transaction_history": [
+      {
+        "date_action": "2012-08-01",
+        "description": "Electronic Information Disclosure Statement"
+      },
+      {
+        "date_action": "2012-08-01",
+        "description": "Information Disclosure Statement (IDS) Filed"
+      },
+      {
+        "date_action": "2011-08-12",
+        "description": "Electronic Information Disclosure Statement"
+      },
+      {
+        "date_action": "2011-08-17",
+        "description": "Date Forwarded to Examiner"
+      },
+      {
+        "date_action": "2011-08-11",
+        "description": "Request for Continued Examination (RCE)"
+      },
+      {
+        "date_action": "2011-08-17",
+        "description": "Disposal for a RCE / CPA / R129"
+      },
+      {
+        "date_action": "2011-08-11",
+        "description": "Request for Extension of Time - Granted"
+      },
+      {
+        "date_action": "2011-08-12",
+        "description": "Information Disclosure Statement (IDS) Filed"
+      },
+      {
+        "date_action": "2011-08-11",
+        "description": "Workflow - Request for RCE - Begin"
+      },
+      {
+        "date_action": "2011-03-16",
+        "description": "Electronic Review"
+      },
+      {
+        "date_action": "2011-03-11",
+        "description": "Email Notification"
+      },
+      {
+        "date_action": "2011-03-11",
+        "description": "Mail Final Rejection (PTOL - 326)"
+      },
+      {
+        "date_action": "2011-03-08",
+        "description": "Final Rejection"
+      },
+      {
+        "date_action": "2011-01-12",
+        "description": "Date Forwarded to Examiner"
+      },
+      {
+        "date_action": "2011-01-06",
+        "description": "Response after Non-Final Action"
+      },
+      {
+        "date_action": "2011-01-06",
+        "description": "Request for Extension of Time - Granted"
+      },
+      {
+        "date_action": "2010-10-06",
+        "description": "Case Docketed to Examiner in GAU"
+      },
+      {
+        "date_action": "2010-08-12",
+        "description": "Electronic Review"
+      },
+      {
+        "date_action": "2010-08-06",
+        "description": "Email Notification"
+      },
+      {
+        "date_action": "2010-08-06",
+        "description": "Mail Non-Final Rejection"
+      },
+      {
+        "date_action": "2010-08-02",
+        "description": "Non-Final Rejection"
+      },
+      {
+        "date_action": "2007-06-28",
+        "description": "Information Disclosure Statement considered"
+      },
+      {
+        "date_action": "2010-05-15",
+        "description": "Information Disclosure Statement considered"
+      },
+      {
+        "date_action": "2010-06-15",
+        "description": "Case Docketed to Examiner in GAU"
+      },
+      {
+        "date_action": "2010-05-15",
+        "description": "Electronic Information Disclosure Statement"
+      },
+      {
+        "date_action": "2010-05-15",
+        "description": "Information Disclosure Statement (IDS) Filed"
+      },
+      {
+        "date_action": "2009-05-06",
+        "description": "Case Docketed to Examiner in GAU"
+      },
+      {
+        "date_action": "2008-12-10",
+        "description": "IFW TSS Processing by Tech Center Complete"
+      },
+      {
+        "date_action": "2008-10-07",
+        "description": "Case Docketed to Examiner in GAU"
+      },
+      {
+        "date_action": "2008-10-07",
+        "description": "Case Docketed to Examiner in GAU"
+      },
+      {
+        "date_action": "2008-09-28",
+        "description": "Case Docketed to Examiner in GAU"
+      },
+      {
+        "date_action": "2008-09-28",
+        "description": "Decision Made by Classification Division"
+      },
+      {
+        "date_action": "2008-09-28",
+        "description": "Request for Classification Division Decision"
+      },
+      {
+        "date_action": "2008-07-31",
+        "description": "PG-Pub Issue Notification"
+      },
+      {
+        "date_action": "2008-07-02",
+        "description": "Transfer Inquiry to GAU"
+      },
+      {
+        "date_action": "2008-05-02",
+        "description": "Transfer Inquiry to GAU"
+      },
+      {
+        "date_action": "2007-08-22",
+        "description": "Oath or Declaration Filed (Including Supplemental)"
+      },
+      {
+        "date_action": "2007-06-28",
+        "description": "Reference capture on IDS"
+      },
+      {
+        "date_action": "2007-06-28",
+        "description": "Information Disclosure Statement (IDS) Filed"
+      },
+      {
+        "date_action": "2007-11-06",
+        "description": "Application Dispatched from OIPE"
+      },
+      {
+        "date_action": "2007-08-30",
+        "description": "Sent to Classification Contractor"
+      },
+      {
+        "date_action": "2007-08-30",
+        "description": "Application Is Now Complete"
+      },
+      {
+        "date_action": "2007-08-22",
+        "description": "Additional Application Filing Fees"
+      },
+      {
+        "date_action": "2007-08-22",
+        "description": "A statement by one or more inventors satisfying the requirement under 35 USC 115, Oath of the Applic"
+      },
+      {
+        "date_action": "2007-07-19",
+        "description": "Notice Mailed--Application Incomplete--Filing Date Assigned"
+      },
+      {
+        "date_action": "2007-07-11",
+        "description": "Cleared by OIPE CSR"
+      },
+      {
+        "date_action": "2007-07-03",
+        "description": "IFW Scan & PACR Auto Security Review"
+      },
+      {
+        "date_action": "2007-06-28",
+        "description": "Information Disclosure Statement (IDS) Filed"
+      },
+      {
+        "date_action": "2007-06-28",
+        "description": "Initial Exam Team nn"
+      }
+    ]
+  }
+}
